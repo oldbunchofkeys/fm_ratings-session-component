@@ -114,8 +114,8 @@ export default {
   .before-click__ratings-container label {
     all: unset;
     background: #262E38;
-    height: 40px;
-    width: 40px;
+    height: 42px;
+    width: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,6 +180,8 @@ export default {
     }
     .before-click__image-container {
       margin-bottom: 30px;
+      height: 48px;
+      width: 48px;
     }
     .before-click__ratings-container {
       font-size: 16px;
