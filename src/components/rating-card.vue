@@ -89,7 +89,9 @@ export default {
   .main__card {
     background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
     width: 327px;
+    height: 360px;
     padding: 24px;
+    border-radius: 15px;
   }
   .before-click__image-container {
     background: #262E38;
@@ -172,7 +174,9 @@ export default {
     }
     .main__card {
       width: 412px;
+      height: 416px;
       padding: 32px;
+      border-radius: 30px;
     }
     .before-click__image-container {
       margin-bottom: 30px;
