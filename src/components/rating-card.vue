@@ -184,6 +184,10 @@ export default {
     .before-click__ratings-container {
       font-size: 16px;
     }
+    .before-click__ratings-container label {
+      height: 51px;
+      width: 51px;
+    }
     .after-click__rating-report {
       margin: 32px 0;
     }
