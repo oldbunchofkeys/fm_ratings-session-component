@@ -1,28 +1,31 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <main>
+    <div id="app">
+      <rating-card heading="How did we do?" body="Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!"/>
+    </div>
+  </main>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import RatingCard from './components/rating-card.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    RatingCard
   }
 }
 </script>
 
 <style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  height: 100vh;
 }
 </style>
