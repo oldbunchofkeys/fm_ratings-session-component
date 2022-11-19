@@ -185,6 +185,7 @@ export default {
     }
     .before-click__ratings-container {
       font-size: 16px;
+      margin: 32px 0;
     }
     .before-click__ratings-container label {
       height: 51px;
