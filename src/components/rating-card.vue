@@ -20,7 +20,7 @@
             <input id="rating-5" name="ratings" type="radio" class="before-click__rating">
             <label for="rating-5">5</label>
           </div>
-          <input @click="ratingsSession" type="submit" class="submit" value="submit">
+          <input @click="ratingsSession" type="before-click__submit" class="submit" value="submit">
         </form>
       </article>
       <article id="after-click">
@@ -132,7 +132,7 @@ export default {
     background: #7C8798;
     color: white;
   }
-  .submit {
+  .before-click__submit {
     all: unset;
     text-transform: uppercase;
     margin: auto;
@@ -146,8 +146,10 @@ export default {
     font-size: 14px;
     font-weight: 700;
     cursor: pointer;
+    line-height: 18px;
+    letter-spacing: 1.86667px;
   }
-  .submit:hover {
+  .before-click__submit:hover {
     background: white;
     color: #FC7614;
   }
@@ -190,6 +192,11 @@ export default {
     .before-click__ratings-container label {
       height: 51px;
       width: 51px;
+    }
+    .before-click__submit {
+      font-size: 15px;
+      line-height: 19px;
+      letter-spacing: 2px;
     }
     .after-click__rating-report {
       margin: 32px 0;
