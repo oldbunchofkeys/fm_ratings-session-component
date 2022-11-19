@@ -20,7 +20,7 @@
             <input id="rating-5" name="ratings" type="radio" class="before-click__rating">
             <label for="rating-5">5</label>
           </div>
-          <input @click="ratingsSession" type="submit" class="submit">
+          <input @click="ratingsSession" type="submit" class="submit" value="submit">
         </form>
       </article>
       <article id="after-click">
